@@ -1,0 +1,24 @@
+# Model and scene files stay out of this repository
+*.blend
+*.blend1
+*.glb
+*.gltf
+*.stl
+*.3dm
+*.3dmbak
+*.fbx
+*.obj
+
+# Local output and environment
+__pycache__/
+.venv/
+bake/
+out/
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
